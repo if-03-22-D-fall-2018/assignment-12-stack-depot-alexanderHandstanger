@@ -3,8 +3,6 @@
 #ifndef SPL_DEPOT_H
 #define SPL_DEPOT_H
 
-#include "stack.h"
-
 #define STACK_SIZE_LIMIT 3
 
 typedef struct DepotImplementation* Depot;
