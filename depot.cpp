@@ -1,6 +1,6 @@
 #include <stdlib.h>
-#include "depot.h"
-#include "stack.h"
+#include "depot.h"  //DEPOT
+#include "stack.h"  //NODE
 
 struct DepotImplementation {
     Stack stack_of_stacks;

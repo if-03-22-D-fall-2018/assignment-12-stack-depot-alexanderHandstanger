@@ -29,7 +29,7 @@ void delete_stack(Stack stack) {
     sfree(stack);
 }
 
-void push_stack(Stack stack, void *data) {
+void push_stack(Stack stack, void *data) {  //Enqueu
     Node* new_node = (Node*) smalloc(sizeof(Node));
     new_node->data = data;
     new_node->next = stack->head;
@@ -41,7 +41,7 @@ int get_count(Stack stack) {
     return stack->count;
 }
 
-void* pop_stack(Stack stack) {
+void* pop_stack(Stack stack) {    //Dequeu
     if (get_count(stack) == 0){
         return 0;
     }

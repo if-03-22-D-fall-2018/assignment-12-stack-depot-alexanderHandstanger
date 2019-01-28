@@ -3,7 +3,7 @@
 #ifndef SPL_DEPOT_H
 #define SPL_DEPOT_H
 
-#define STACK_SIZE_LIMIT 3
+#define STACK_SIZE_LIMIT 3  //ANGABE
 
 typedef struct DepotImplementation* Depot;
 

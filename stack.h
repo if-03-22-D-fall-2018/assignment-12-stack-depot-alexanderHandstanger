@@ -1,7 +1,7 @@
 /**
 @file stack.h
 */
-#include "memcheck.h"
+#include "memcheck.h" //ALL FUNKTIONS
 
 #ifndef SPL_STACK_H
 #define SPL_STACK_H
